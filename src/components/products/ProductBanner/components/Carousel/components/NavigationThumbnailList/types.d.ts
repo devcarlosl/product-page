@@ -1,3 +1,5 @@
+import { FieldProductDetailsByColor } from "@/types/query";
+
 export interface ImageProps {
   entity: {
     fieldMediaImage: {
