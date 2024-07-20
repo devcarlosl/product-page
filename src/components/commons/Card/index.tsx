@@ -3,6 +3,8 @@ import { checkDirectionImageClass } from "@/utils/checkDirectionImageClass";
 import CardInfo from "./components/CardInfo";
 import CardImage from "./components/CardImage";
 
+import { CardProps } from "./types";
+
 import styles from "./card.module.css";
 
 function Card({

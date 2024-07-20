@@ -1,4 +1,4 @@
-interface ProductCardsProps {
+export interface ProductCardsProps {
   descriptions: {
     entity: {
       fieldCardMinibannerTitle: string;

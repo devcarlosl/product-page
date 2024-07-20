@@ -2,14 +2,9 @@ import Image from "next/image";
 
 import ZoomButton from "../ZoomButton";
 
-import styles from "./image-display.module.css";
+import { ImageDisplayProps } from "./types";
 
-interface ImageDisplayProps {
-  imageUrl: string;
-  imageAlt: string;
-  onClickZoom: () => void;
-  children?: React.ReactNode;
-}
+import styles from "./image-display.module.css";
 
 function ImageDisplay({
   imageUrl,

@@ -33,7 +33,7 @@ interface Entity {
   fieldMediaImage?: FieldMediaImage;
 }
 
-interface FieldProductDetailsByColor {
+export interface FieldProductDetailsByColor {
   entity: {
     entityId: string;
     fieldProdDetailsBcolorColor: {

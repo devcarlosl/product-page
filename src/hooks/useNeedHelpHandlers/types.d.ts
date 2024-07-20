@@ -1,9 +1,9 @@
-interface TouchPosition {
+export interface TouchPosition {
   startX: number;
   endX: number;
 }
 
-interface NeedHelpOption {
+export interface NeedHelpOption {
   icon: React.ReactNode;
   text: string;
 }

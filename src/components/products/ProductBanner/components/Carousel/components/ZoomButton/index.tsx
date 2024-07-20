@@ -2,6 +2,8 @@ import Image from "next/image";
 
 import iconZoom from "@/icons/desktop/icon_searchplus.svg?url";
 
+import { ZoomButtonProps } from "./types";
+
 import styles from "./zoom-button.module.css";
 
 function ZoomButton({ onClick }: ZoomButtonProps) {

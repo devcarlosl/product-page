@@ -1,4 +1,4 @@
-interface ShowGalleryButtonProps {
+export interface ShowGalleryButtonProps {
   showGalleryButton: boolean;
   onClick: () => void;
 }

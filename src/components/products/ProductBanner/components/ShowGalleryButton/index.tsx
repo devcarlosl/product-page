@@ -1,5 +1,7 @@
 import ImgGalleryIcon from "@/icons/desktop/icon_img_gallery_green.svg";
 
+import { ShowGalleryButtonProps } from "./types";
+
 import styles from "./show-gallery-button.module.css";
 
 function ShowGalleryButton({

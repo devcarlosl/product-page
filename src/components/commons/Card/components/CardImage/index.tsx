@@ -1,5 +1,7 @@
 import Image from "next/image";
 
+import { CardImageProps } from "./types";
+
 import styles from "./card-image.module.css";
 
 function CardImage({ imageUrl, imageAlt }: CardImageProps) {

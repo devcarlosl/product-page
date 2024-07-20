@@ -1,5 +1,7 @@
 import TagGalleryIcon from "@/icons/desktop/tag_gallery.svg";
 
+import { TagGalleryProps } from "./types";
+
 import styles from "./tag-gallery.module.css";
 
 function TagGallery({ showCarousel, showGalleryButton }: TagGalleryProps) {

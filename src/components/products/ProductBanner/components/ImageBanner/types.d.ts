@@ -1,4 +1,4 @@
-interface ImageBannerProps {
+export interface ImageBannerProps {
   imageUrl: string;
   imageAlt: string;
   showCarousel: boolean;

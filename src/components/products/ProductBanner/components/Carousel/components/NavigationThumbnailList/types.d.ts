@@ -1,4 +1,4 @@
-interface ImageProps {
+export interface ImageProps {
   entity: {
     fieldMediaImage: {
       alt: string;
@@ -10,7 +10,7 @@ interface ImageProps {
   };
 }
 
-interface NavigationThumbnailListProps {
+export interface NavigationThumbnailListProps {
   images: FieldProductDetailsByColor["entity"]["fieldProdDetailsBcolGallery"];
   currentIndex: number;
   setCurrentIndex: (index: number) => void;

@@ -1,4 +1,4 @@
-interface ZoomedImageProps {
+export interface ZoomedImageProps {
   zoomedImage: string | null;
   closeZoomedImage: () => void;
   imageUrl: string;

@@ -1,5 +1,7 @@
 import React, { useRef, useState } from "react";
 
+import { NeedHelpOption, TouchPosition } from "./types";
+
 export const useNeedHelpHandlers = (needHelpOptions: NeedHelpOption[]) => {
   const [currentOptionIndex, setCurrentOptionIndex] = useState(0);
   const touchPosition = useRef<TouchPosition>({ startX: 0, endX: 0 });

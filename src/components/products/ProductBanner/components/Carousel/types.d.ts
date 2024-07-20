@@ -1,6 +1,6 @@
 import { FieldProductDetailsByColor } from "@/types/query";
 
-interface CarrosselProps {
+export interface CarrosselProps {
   images: FieldProductDetailsByColor["entity"]["fieldProdDetailsBcolGallery"];
   closeCarousel: () => void;
 }

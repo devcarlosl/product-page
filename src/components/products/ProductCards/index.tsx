@@ -2,6 +2,8 @@ import React from "react";
 
 import Card from "@/commons/Card";
 
+import { ProductCardsProps } from "./types";
+
 import styles from "./product-cards.module.css";
 
 function ProductCards({ descriptions }: ProductCardsProps) {

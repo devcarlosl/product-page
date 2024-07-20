@@ -1,5 +1,7 @@
 import Thumbnail from "./components/Thumbnail";
 
+import { ImageProps, NavigationThumbnailListProps } from "./types";
+
 import styles from "./thumbnail-list.module.css";
 
 function NavigationThumbnailList({
@@ -9,7 +11,7 @@ function NavigationThumbnailList({
 }: NavigationThumbnailListProps) {
   return (
     <div className={styles.thumbnailList}>
-      {images.map((image, index: number) => (
+      {images.map((image: ImageProps, index: number) => (
         <Thumbnail
           key={image.entity.fieldMediaImage?.url}
           imageUrl={image.entity.thumbnail?.url ?? ""}

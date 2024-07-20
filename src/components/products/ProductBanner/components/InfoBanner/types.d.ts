@@ -1,17 +1,8 @@
-import { Entities } from "@/types/query";
+import { Entities, FieldProductDetailsByColor } from "@/types/query";
 
-interface InfoBannerProps {
+export interface InfoBannerProps {
   title: Entities["title"];
   subTitle: Entities["fieldProductSubtitle"];
   summary: Entities["fieldProductSummary"]["value"];
-  colors: {
-    entity: {
-      entityId: string;
-      fieldProdDetailsBcolorColor: {
-        entity: {
-          fieldColorRgb: string;
-        };
-      };
-    };
-  }[];
+  colors: FieldProductDetailsByColor[];
 }

@@ -2,6 +2,8 @@ import Image from "next/image";
 
 import ZoomedNavButton from "../ZoomedNavButton";
 
+import { ZoomedImageProps } from "./types";
+
 import styles from "./zoomed-image.module.css";
 
 function ZoomedImage({

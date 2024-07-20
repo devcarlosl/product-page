@@ -1,5 +1,5 @@
 import { Entities } from "@/types/query";
 
-interface ProductBannerProps {
+export interface ProductBannerProps {
   productInfo: Entities;
 }

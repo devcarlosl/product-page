@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+import { FieldProductDetailsByColor } from "@/types/query";
+
 export const useCarouselHandlers = (
   images: FieldProductDetailsByColor["entity"]["fieldProdDetailsBcolGallery"]
 ) => {

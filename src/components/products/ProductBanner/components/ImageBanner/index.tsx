@@ -3,6 +3,8 @@ import Image from "next/image";
 import TagGallery from "../TagGallery";
 import ShowGalleryButton from "../ShowGalleryButton";
 
+import { ImageBannerProps } from "./types";
+
 import styles from "./image-banner.module.css";
 
 function ImageBanner({

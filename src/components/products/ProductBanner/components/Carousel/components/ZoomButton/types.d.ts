@@ -1,3 +1,3 @@
-interface ZoomButtonProps {
+export interface ZoomButtonProps {
   onClick: () => void;
 }

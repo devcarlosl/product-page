@@ -3,6 +3,8 @@ import Image from "next/image";
 import iconNavAngleLeft from "@/icons/desktop/icon_nav_angle_left.svg?url";
 import iconNavAngleRight from "@/icons/desktop/icon_nav_angle_right.svg?url";
 
+import { NavigationButtonsProps } from "./types";
+
 import styles from "./navigation-buttons.module.css";
 
 function NavigationButtons({ onPrev, onNext }: NavigationButtonsProps) {

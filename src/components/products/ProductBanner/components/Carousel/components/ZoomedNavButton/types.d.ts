@@ -1,4 +1,4 @@
-interface ZoomedNavigationButtonProps {
+export interface ZoomedNavigationButtonProps {
   onClick: () => void;
   direction: "prev" | "next";
 }

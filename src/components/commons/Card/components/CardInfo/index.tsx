@@ -1,5 +1,7 @@
 import { sanitizeHTML } from "@/utils/sanitizeHTLM";
 
+import { CardInfoProps } from "./types";
+
 import styles from "./card-info.module.css";
 
 function CardInfo({ title, description }: CardInfoProps) {
