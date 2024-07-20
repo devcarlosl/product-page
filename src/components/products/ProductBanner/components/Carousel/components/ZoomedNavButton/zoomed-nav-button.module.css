@@ -1,0 +1,41 @@
+.zoomedNavigationButton {
+  position: relative;
+  background: transparent;
+  border: none;
+  color: var(--grayscale);
+  font-size: 24px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  z-index: 2;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.zoomedNavigationButton img {
+  color: var(--grayscale);
+}
+
+.zoomedNavigationButton:hover {
+  background-color: var(--shadow-color-2);
+}
+
+.prev {
+  left: -400px;
+}
+
+.next {
+  right: -400px;
+}
+
+@media screen and (max-width: 768px) {
+  .prev {
+    left: -150px;
+  }
+
+  .next {
+    right: -150px;
+  }
+}

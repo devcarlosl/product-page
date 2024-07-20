@@ -1,0 +1,25 @@
+.zoomedImageContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--shadow-color-8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+ 
+.zoomedImage {
+  max-height: 90vh;
+  max-width: 50vw;
+  margin: 0 auto;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 768px) {
+  .zoomedImage {
+    max-width: 70vw;
+  }
+}

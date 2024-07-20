@@ -1,0 +1,3 @@
+interface ZoomButtonProps {
+  onClick: () => void;
+}

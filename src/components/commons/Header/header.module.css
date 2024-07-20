@@ -1,0 +1,12 @@
+.header img {
+  width: 100%;
+  background: var(--white);
+}
+
+.mobileHeight img {
+  height: 48px;
+}
+
+.desktopHeight img {
+  height: 120px;
+}

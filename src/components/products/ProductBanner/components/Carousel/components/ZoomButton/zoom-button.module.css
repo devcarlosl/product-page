@@ -1,0 +1,30 @@
+.zoomButton {
+  position: absolute;
+  right: -80px;
+  background: transparent;
+  border: none;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+}
+.zoomButton:hover {
+  background-color: var(--shadow-color-1);
+}
+
+@media screen and (max-width: 390px) {
+  .zoomButton {
+    top: 236px;
+    right: 28px;
+  }
+}
+
+@media (min-width: 391px) and (max-width: 768px) {
+  .zoomButton {
+    top: 268px;
+    right: 28px;
+  }
+}

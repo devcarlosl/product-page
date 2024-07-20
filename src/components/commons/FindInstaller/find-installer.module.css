@@ -1,0 +1,44 @@
+.findInstallerContainer {
+  width: 100%;
+  max-width: 1200px;
+  height: 136px;
+  margin: 60px auto 24px;
+  border-top: 1px solid var(--grayscale-medium);
+}
+
+.findInstallerWrapper {
+  align-self: flex-end;
+  gap: 48px;
+  margin-right: 48px;
+}
+
+.findInstallerText {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.findInstallerTextBold {
+  font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+  .findInstallerContainer {
+    flex-direction: column;
+    height: 196px;
+    margin-top: 48px;
+  }
+
+  .findInstallerWrapper {
+    gap: 32px;
+    max-width: 244px;
+    align-self: center;
+    margin-top: 32px;
+    margin-right: 0;
+  }
+
+  .findInstallerText {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}

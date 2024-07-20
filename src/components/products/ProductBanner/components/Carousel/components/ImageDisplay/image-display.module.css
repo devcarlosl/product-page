@@ -1,0 +1,22 @@
+.imageDisplayContainer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (max-width: 390px) {
+  .imageDisplayContainer div > img {
+    width: 248px;
+    height: 248px;
+  }
+}
+
+@media (min-width: 391px) and (max-width: 768px) {
+  .imageDisplayContainer div > img {
+    width: 284px;
+    height: 284px;
+  }
+}

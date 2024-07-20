@@ -1,0 +1,35 @@
+.showGallery {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 0 16px 16px 0;
+  background-color: var(--shadow-color-3);
+}
+
+.showGalleryButton {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 16.5px;
+
+  width: 180px;
+  height: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border-radius: 64px;
+  color: var(--primary-color);
+  background-color: var(--white);
+  border: 1px solid var(--primary-color);
+}
+
+@media screen and (max-width: 768px) {
+  .showGallery {
+    border-radius: 16px 16px 0  0;
+  }
+}

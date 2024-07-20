@@ -1,0 +1,12 @@
+.footer img {
+  width: 100%;
+  background: var(--white);
+}
+
+.mobileHeight img {
+  height: 538px;
+}
+
+.desktopHeight img {
+  height: 800px;
+}

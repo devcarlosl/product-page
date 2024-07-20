@@ -1,0 +1,125 @@
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 500px;
+  padding: 66px 48px;
+  border-radius: 16px 0 0 16px;
+  background-color: var(--grayscale-dark);
+}
+
+.infoTitle {
+  width: max-content;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: left;
+  color: var(--white);
+}
+
+.infoTitle::after {
+  content: '';
+  display: block;
+  width: calc(100% + 16px);
+  height: 1px;
+  background-color: var(--primary-color);
+}
+
+.infoSubTitle {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 38px;
+  color: var(--white);
+}
+
+.infoSummary {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  color: var(--white);
+}
+
+.infoColors {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 8px;
+}
+
+.infoColorText {
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.infoColorButton {
+  width: 16px;
+  height: 16px;
+  border: none;
+  border-radius: 50%;
+  outline-offset: 6px;
+  outline: 1px solid var(--white);
+}
+
+.infoButton {
+  width: 200px;
+  height: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border: none;
+  border-radius: 64px;
+  color: var(--white);
+  background-color: var(--primary-color);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  margin-top: auto;
+}
+
+.infoButton:hover {
+  background-color: var(--primary-color-hover);
+}
+
+.infoButton.infoButtonIcon {
+  padding-top: 1px;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 768px) {
+  .infoContainer {
+    width: 100%;
+    padding: 32px 24px;
+    border-radius: 0 0 16px 16px;
+  }
+
+  .infoTitle {
+    line-height: 22px;
+  }
+
+  .infoSubTitle {
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 32px;
+  }
+
+  .infoSummary {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+  }
+
+  .infoColors {
+    margin-top: 4px;
+  }
+
+  .infoColorText {
+    font-weight: 400;
+  }
+
+  .infoButton {
+    margin-top: 16px;
+  }
+}

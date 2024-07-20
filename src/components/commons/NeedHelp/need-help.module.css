@@ -1,0 +1,69 @@
+.needHelpContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 120px;
+  margin-top: 60px;
+  background-color: var(--primary-color);
+}
+
+.needHelpOptionsContainer {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+.needHelpTitle {
+  color: var(--white);
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 32px;
+  margin-right: 48px;
+}
+
+.needHelpOption {
+  display: flex;
+  align-items: center;
+  max-width: 268px;
+}
+
+.needHelpOptionText {
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  max-width: 156px;
+  margin: 0 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .needHelpContainer {
+    flex-direction: column;
+    justify-content: space-around;
+    height: 240px;
+  }
+
+  .needHelpOptionsContainer {
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+  }
+
+  .needHelpTitle {
+    margin-right: 0;
+  }
+
+  .needHelpOptionText {
+    min-height: 72px;
+  }
+
+  .needHelpNav {
+    display: flex;
+    gap: 32px;
+  }
+
+  .needHelpNavActive svg circle {
+    fill: var(--white);
+  }
+}
