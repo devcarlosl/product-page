@@ -5,7 +5,7 @@ export async function fetchProductData() {
   formData.append("query", PRODUCT_QUERY);
 
   try {
-    const res = await fetch(process.env.NEXT_PUBLIC_API_PRODUCT ?? "", {
+    const res = await fetch(`${process.env.NEXT_PUBLIC_API_PRODUCT}` ?? "", {
       method: "POST",
       body: formData,
     });
