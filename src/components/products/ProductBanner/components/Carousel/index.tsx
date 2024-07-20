@@ -1,3 +1,5 @@
+"use client";
+
 import { useCarouselHandlers } from "@/hooks/useCarouselHandlers";
 
 import ZoomedImage from "./components/ZoomedImage";
