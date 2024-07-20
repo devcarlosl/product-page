@@ -36,7 +36,7 @@ Abra [http://localhost:3000](http://localhost:3000) no seu navegador.
 
 **Descrição:**
 
-A página de produtos será desenvolvida utilizando Next.js, TypeScript e CSS Modules. Para utilização de arquivos .svg, será utilizado um pacote externo para importação de arquivos .svg. O pacote utilizado será o `@svgr/webpack`. _(Durante o desenvolvimento, outros pacotes podem ser utilizados)_
+A página de produtos será desenvolvida utilizando Next.js, TypeScript e CSS Modules. Para utilização de arquivos .svg, será utilizado um pacote externo. O pacote utilizado será o `@svgr/webpack`. _(Durante o desenvolvimento, outros pacotes podem ser utilizados)_
 
 **Dados do produto:**
 
@@ -64,7 +64,3 @@ A página de produtos será desenvolvida utilizando Next.js, TypeScript e CSS Mo
 ### _Observações_
 
 O layout deve ser responsivo e respeitar o Figma pré disponibilizado.
-
-```
-
-```
