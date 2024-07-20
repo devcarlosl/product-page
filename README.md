@@ -1,31 +1,34 @@
-## Getting Started
+## Rodando projeto localmente
 
-First, run the development server:
+#### Clonagem do Repositório:
+
+Utilize o comando `git clone` para clonar o repositório do projeto no seu
+diretório local.
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/devcarlosl/product-page.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+#### Instalação das Dependências:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Acesse o diretório do projeto clonado e instale as dependências do projeto
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```bash
+yarn install
+#ou seu gerenciador de pacotes preferido
+```
 
-## Learn More
+#### Execução do Projeto:
 
-To learn more about Next.js, take a look at the following resources:
+Após a instalação das dependências, execute o comando para rodar o projeto
+localmente.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+yarn dev
+#ou seu gerenciador de pacotes preferido
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Abra [http://localhost:3000](http://localhost:3000) no seu navegador.
 
 ## Refinamento
 
@@ -33,7 +36,7 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 **Descrição:**
 
-A página de produtos será desenvolvida utilizando Next.js, TypeScript e CSS Modules. Para garantir a responsividade e utilização de arquivos .svg, serão utilizados dois pacotes externos uma para importação de arquivos .svg e outro para detecção de dispositivos, pois em Server Components o acesso ao objeto `window` do navegador não é possível. Os pacotes utilizados serão `ua-parser-js` e o `@svgr/webpack`. _(Durante o desenvolvimento, outros pacotes podem ser utilizados)_
+A página de produtos será desenvolvida utilizando Next.js, TypeScript e CSS Modules. Para utilização de arquivos .svg, será utilizado um pacote externo para importação de arquivos .svg. O pacote utilizado será o `@svgr/webpack`. _(Durante o desenvolvimento, outros pacotes podem ser utilizados)_
 
 **Dados do produto:**
 
@@ -58,4 +61,10 @@ A página de produtos será desenvolvida utilizando Next.js, TypeScript e CSS Mo
 - **Sessão de Breadcrumb:**
   - **Caminho até a página do produto:** A página terá um breadcrumb para exibir o caminho de navegação até a página do produto.
 
-# product-page
+### _Observações_
+
+O layout deve ser responsivo e respeitar o Figma pré disponibilizado.
+
+```
+
+```
