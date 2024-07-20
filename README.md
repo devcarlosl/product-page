@@ -64,7 +64,3 @@ A página de produtos será desenvolvida utilizando Next.js, TypeScript e CSS Mo
 ### _Observações_
 
 O layout deve ser responsivo e respeitar o Figma pré disponibilizado.
-
-```
-
-```
